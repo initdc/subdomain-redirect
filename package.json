@@ -1,0 +1,7 @@
+{
+  "name": "subdomain-redirect",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "initdc <initd@outlook.com>",
+  "license": "MIT"
+}

@@ -2,12 +2,11 @@ const code = 302
 
 async function handleRequest(request) {
   const host = request.headers.get('host')
-  console.log(host)
+  // console.log(host)
 
   const regex= /^\w+/
   const found = host.match(regex)[0]
-
-  console.log(found)
+  // console.log(found)
 
   const value = await SUB.get(found)
   if (value === null) {
